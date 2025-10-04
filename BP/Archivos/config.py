@@ -1,6 +1,6 @@
 from pathlib import Path
 """
-Para la comparación con y sin regularización L2. Estas configuraciones
+Para la comparación con y sin regularización L2. Estas configuraciones. Esto es del punto 4 de la práctica.
 Sin regularización:
     L2_REG = 0.0
     USE_DROPOUT = False
@@ -16,6 +16,7 @@ L2 + Dropout:
     DROPOUT_RATE = 0.3
 """
 """
+Esto ya lo pide el punto 5 de la práctica.
 Algunas configuraciones que ya probe, para tener referencias para el reporte, solo modifica los parametros que dice en cada uno:
 
 1) Baseline (ya usada antes)

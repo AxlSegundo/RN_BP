@@ -12,10 +12,10 @@ def main():
     model = out["model"]
     history = out["history"]
 
-    # 3) Curva de MSE por épocas (pide la práctica más adelante)
+    # 3) Curva de MSE por épocas
     plot_history(history, title_prefix="Boston Housing MLP")
 
-    # 4) Evaluación en test
+    # 4) Evaluación
     y_pred = model.predict(X_test).ravel()
     mse = mean_squared_error(y_test, y_pred)
     mae = mean_absolute_error(y_test, y_pred)
